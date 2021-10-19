@@ -9,19 +9,26 @@ const Footer = () => {
         target="_blank"
         rel="noreferrer noopener"
       >
+        <img
+          src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&logoColor=white&link=https://github.com/gparkkii"
+          alt="GitHub"
+        />
       </a>
       <a
         href="mailto:vjinhyeokv@gmail.com"
         target="_blank"
         rel="noreferrer noopener"
       >
+        <img
+          src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jyp933@gmail.com"
+          alt="Gmail"
+        />
       </a>
     </StyledFooter>
   );
 };
 
 export default Footer;
-
 
 const StyledFooter = styled.footer`
   position: absolute;
@@ -44,4 +51,3 @@ const StyledFooter = styled.footer`
     }
   }
 `;
-
