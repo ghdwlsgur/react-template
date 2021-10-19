@@ -4,7 +4,7 @@ import loadable from '@loadable/component';
 import AppLayout from 'components/common/AppLayout';
 import axios from 'axios';
 
-const Main = loadable(() => import('pages/Main.js'));
+const Main = loadable(() => import('pages/Main'));
 
 axios.defaults.withCredentials = true;
 axios.defaults.baseURL =
