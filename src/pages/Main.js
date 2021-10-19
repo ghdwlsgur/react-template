@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable jsx-a11y/anchor-has-content */
+
 import React from 'react';
 import styled from '@emotion/styled';
 import { FlexContainer } from 'styles/container/styles';
@@ -11,13 +14,12 @@ const Main = () => {
       <MainTitle>
         <ReactImg src={ReactIcon} alt="webpack" />
         <WebpackImg src={WebpackIcon} alt="react" />
-        <br /> Webpack으로 React.js 빌드하기
+        <br /> yarn으로 만드는 Webpack
         <a
           href="https://github.com/ragnarok-forU/react-webpack-template"
           target="_blank"
           rel="noreferrer noopener"
-        >
-        </a>
+        />
       </MainTitle>
     </FlexContainer>
   );
