@@ -6,9 +6,6 @@ yarn install                                                              // 모
 yarn start                                                                // 실행
 ```
 
-📁
-📂
-🗂📄
 ```bash
 📦 react-webpack-template
 ├── 🗂 public
