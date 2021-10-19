@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env webpack serve --env development",
+    "start": "cross-env webpack serve --env development", 
     "prebuild": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack"
   },
