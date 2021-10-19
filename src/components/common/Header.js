@@ -1,11 +1,13 @@
 import React from 'react';
+import ReactIcon from 'assets/react.png';
 import styled from '@emotion/styled';
+import { spinReverse } from 'styles/keyframes';
 
 const Header = () => {
   return (
     <StyledHeader>
       <nav>
-        <h2>👩🏼‍💻</h2>
+        <ReactImg src={ReactIcon} alt="webpack" />
         ragnarok-forU
       </nav>
     </StyledHeader>
@@ -13,8 +15,6 @@ const Header = () => {
 };
 
 export default Header;
-
-
 
 const StyledHeader = styled.header`
   position: fixed;
@@ -41,3 +41,9 @@ const StyledHeader = styled.header`
   }
 `;
 
+const ReactImg = styled.img`
+  width: 25px;
+  margin: 0px 5px;
+  transition: 0.5s all linear;
+  animation: ${spinReverse} 15s linear infinite;
+`;
